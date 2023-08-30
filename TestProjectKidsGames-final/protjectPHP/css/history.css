@@ -1,0 +1,226 @@
+
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+    font-family: "Poppins", sans-serif;
+
+
+
+
+}
+
+
+
+
+/* General Body Styling */
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    margin: 0;
+
+    padding: 0;
+
+    line-height: 1.6;
+
+    background-color: #333;
+
+    color: #fff;
+
+}
+
+
+
+
+/* Navbar Styling */
+
+.navbar-container {
+
+    background-color: #555;
+
+}
+
+
+
+
+.navbar-brand .text-primary-logo {
+
+    color: #45f3ff;
+
+}
+
+
+
+
+.navbar-brand .text-Logo {
+
+    color: #ff2770;
+
+}
+
+
+
+
+.nav-item a {
+
+    color: #ff2770;
+
+}
+
+
+
+
+.main {
+
+    padding-bottom: 50px; /* Adjust this value based on the height of your footer */
+
+}
+
+
+
+
+/* Main Content Styling */
+
+.game-container {
+
+    margin: 20px auto;
+
+    width: 70%;
+
+    border: 1px solid #fff;
+
+    background-color: #444;
+
+    color: #fff;
+
+}
+
+
+
+
+.heading {
+
+    color: #45f3ff;
+
+    text-align: center;
+
+}
+
+
+
+
+/* Table Styling */
+
+table {
+
+    width: 100%;
+
+    border-collapse: collapse;
+
+    border: 3px solid #ddd; /* Adjust the border thickness here */
+
+    color: #fff;
+
+}
+
+
+
+
+th, td {
+
+    border: 1px solid #ddd;
+
+    padding: 8px;
+
+    text-align: left;
+
+}
+
+
+
+
+th {
+
+    background-color: #555;
+
+    color: #fff;
+
+}
+
+
+
+
+/* Button Styling */
+
+.btn-loginPrimary {
+
+    border: none;
+
+    cursor: pointer;
+
+    padding: 10px;
+
+    width: 100%;
+
+    background-color: #ff2770;
+
+    color: #fff;
+
+}
+
+
+
+
+.btn-gamePrimary {
+
+    border: none;
+
+    cursor: pointer;
+
+    padding: 10px;
+
+    width: 100%;
+
+    background-color: #00939d;
+
+    color: #fff;
+
+}
+
+
+
+
+.button-container {
+
+    display: flex;
+
+    justify-content: space-between;
+
+}
+
+
+
+
+/* Footer Styling */
+
+.footer-container {
+
+    background-color: #555;
+
+    color: #fff;
+
+    text-align: center;
+
+    padding: 10px;
+
+    bottom: 0;
+
+    width: 100%;
+
+}

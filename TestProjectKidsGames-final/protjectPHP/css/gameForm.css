@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    padding-top: 50px;
+    background: #23242a;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em 1em;
+    margin-bottom: 1em;
+    max-width: 1200px;
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+    font-size: 1.4em;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    position: relative;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    padding-right: 1em;
+}
+
+.navbar ul li {
+    list-style: none;
+    padding: 0.01em 0.5em;
+}
+
+.navbar ul li a {
+    font-size: 1.0625em;
+}
+
+.navbar ul li:hover {
+    background-color: rgb(44, 156, 120);
+    transition: background-color var(--trans-speed) var(--trans-ease);
+    border-radius: 0.4375em;
+}
+
+main {
+    flex-grow: 1;
+}
+
+.heading {
+    font-size: 22px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: -20px; /* Adjust as per your preference */
+    margin-bottom: 20px; /* Adjust as per your preference */
+}
+
+/* Gaame Form Styles */
+.game-container {
+    position: relative;
+    width: 480px;
+    height: 640px; /* Increased from 560px to 600px */
+    background: #1c1c1c;
+    padding: 40px 42px;; 
+    overflow: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #383838;
+    margin: auto; /* Center the game container */
+}
+
+.game-container .gameform {
+    display: absolute;
+    flex-direction: column;
+    color: #fff;
+    padding: 40px 42px;		
+    text-align: center;
+    background: #222;
+    background-color: #383838;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    border: 1px solid #df1c87;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #fff;
+}
+/* 
+.game-container::before {	
+    content: '';
+    margin-bottom: 15px;
+    position: absolute;		
+    top: -50;		
+    left: -50;		
+    width: 380px;		
+    height: 420px;		
+    background: linear-gradient(0deg, transparent,		
+    transparent, #45f3ff, #45f3ff, #45f3ff);		
+    z-index: 1;		
+    transform-origin: bottom left;		
+    animation: animate 6s linear infinite;
+}
+
+.game-container::after {
+    content: '';
+    position: absolute;
+    top: -50;
+    left: -50;
+    width: 380px;
+    height: 420px;
+    background: linear-gradient(0deg, transparent,
+    transparent, #45f3ff, #45f3ff, #45f3ff);
+    z-index: 1;
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+    animation-delay: -3s;
+}
+
+.borderLine {
+    position: absoluute;
+    top: 0;
+    inset: 0;
+}
+.borderLine::before {
+    content: '';
+    position: absolute;
+    top: -50;
+    left: -50;
+    width: 380px;
+    height: 420px;
+    background: linear-gradient(0deg, transparent,
+    transparent, #ff2770, #ff2770, #ff2770);
+    z-index: 1;
+    transform-origin: bottom left;
+    animation: animate 6s linear infinite;
+    animation-delay: -1.5s;
+}
+
+.borderLine::after {
+    content: '';
+    position: absolute;
+    top: -50;
+    left: -50;
+    width: 380px;
+    height: 420px;
+    background: linear-gradient(0deg, transparent,
+    transparent, #ff2770, #ff2770, #ff2770);
+    z-index: 1;
+    transform-origin: bottom left;
+    animation: animate 6s linear infinite;
+    animation-delay: -4.5s;
+}
+
+
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+} */
+
+
+/* .button-container {
+    color:red;
+    padding-top: 20px; /* Adjust as needed 
+} */
+
+/* .btn {
+    flex: 1;
+    margin: 0.5em;
+} 
+
+.btn-loginPrimary {
+    background-color: #4CAF50; /* You can change this color to suit your design 
+    color: #fff; /* This is the color of the text in the button, change as needed
+}
+
+.btn-gamePrimary {
+    background-color: #426fc2; /* You can change this color to suit your design 
+    color: #fff; /* This is the color of the text in the button, change as needed 
+}
+
+.top-left label,
+.top-right label {
+    margin-right: 10px;
+}
+
+.top-left input,
+.top-right input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+*/
+
+/* User Display */ 
+.top-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px; /* Add padding for better appearance */
+  /* background-color: rgba(0,0,0,0.1); /* Background color for visibility, adjust as needed */
+  color: #00bdca; /* Font color, adjust as needed */
+}
+  
+/* User Lives Used Display */
+.top-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 20px;
+  /* background-color: rgba(0,0,0,0.1); /* Background color for visibility, adjust as needed */
+  color: #00bdca; /* Font color, adjust as needed */
+}
+
+/* Updated Button Styles ******************************************************************************/
+button {
+    background-color: #ff2770;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    transition: background-color 0.5s ease;
+}
+
+button:hover {
+    background-color: #9c0034;
+}
+
+
+#giveUpButton {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #00bdca;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+
+#giveUpButton:hover {
+    background-color: #006870;
+  }
+
+
+
+/* Footer Styles */
+.footer-container {
+    max-width: 1200px;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.footer-container p {
+    margin: 0;
+    padding: 0;
+    color:#fff;
+}
+
+@media (max-width: 993px) {
+    .navbar-brand {
+        position: absolute;
+        top: -30px;  /* Adjust this value based on your requirements */
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .navbar-toggler {
+        position: relative;
+        z-index: 1;
+
+
+    }
+}
